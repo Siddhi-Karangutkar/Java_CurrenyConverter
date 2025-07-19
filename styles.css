@@ -1,4 +1,4 @@
-/* Reset default styles */
+/* default styles */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -21,7 +21,7 @@ h2 {
   font-weight: bold;
 }
 
-/* Card / Form Container */
+/* Form Container */
 form {
   background-color: #ffffff;
   margin: 0 auto;
@@ -65,7 +65,7 @@ input[type="number"]:focus {
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Aligns radio buttons to the left */
+  align-items: flex-start; 
   gap: 12px;
 }
 
