@@ -1,0 +1,114 @@
+/* Reset default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: linear-gradient(135deg, #e3f2fd, #f1f8e9);
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+/* Centered Page Title */
+h2 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Card / Form Container */
+form {
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 40px 50px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 540px;
+  transition: transform 0.3s ease;
+}
+
+form:hover {
+  transform: scale(1.01);
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+  color: #33691e;
+  font-size: 17px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+input[type="number"]:focus {
+  border-color: #4caf50;
+}
+
+/* Radio Buttons - stacked vertically */
+.radio-group {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns radio buttons to the left */
+  gap: 12px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 15px;
+  color: #2e7d32;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 10px;
+  accent-color: #388e3c;
+}
+
+
+/* Submit Button */
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #388e3c;
+}
+
+/* Conversion Result */
+#id_msg {
+  margin-top: 35px;
+  text-align: center;
+  font-size: 20px;
+  color: #1b5e20;
+  background-color: #dcedc8;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
